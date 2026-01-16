@@ -1,5 +1,6 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -7,24 +8,27 @@ public class Health : MonoBehaviour
 
     private int MAX_HEALTH = 100;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public void SetHealth(int currentHealth, int maxHealth)
+    {
+        MAX_HEALTH = maxHealth;
+        health = Mathf.Clamp(currentHealth, 0, MAX_HEALTH);
+    }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            //Damage(10);
+            // Damage(10);
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            // Heal(10);
         }
     }
 
-    public void SetHealth(int maxHealth, int health)
-    {
-        this.MAX_HEALTH = maxHealth;
-        this.health = health;
-    }
-
-    public void Damage(int amount) //enables the player to be damaged
+    public void Damage(int amount)
     {
         if (amount < 0)
         {
@@ -39,10 +43,28 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void Die() //deletes the player when dead and teleports them to limbo
+    public void Heal(int amount)
     {
-        Debug.Log("Player is dead");
+        if (amount < 0)
+        {
+            throw new System.ArgumentOutOfRangeException("Cannot have negative healing");
+        }
+
+        bool wouldBeOverMaxHealth = health + amount > MAX_HEALTH;
+
+        if (wouldBeOverMaxHealth)
+        {
+            this.health = MAX_HEALTH;
+        }
+        else
+        {
+            this.health += amount;
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("I am Dead!");
         Destroy(gameObject);
-        SceneManager.LoadScene("Limbo");
     }
 }

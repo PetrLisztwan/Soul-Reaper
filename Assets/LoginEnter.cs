@@ -5,7 +5,7 @@ public class LoginEnter : MonoBehaviour
 {
    public void Enter()
     {
-        SceneManager.LoadScene("GameLoop");
+        SceneManager.LoadScene("MainMenu");
 
     }
 }
