@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -11,7 +13,8 @@ public class Enemy : MonoBehaviour
     private EnemyData data;
 
     private GameObject player;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -33,7 +36,7 @@ public class Enemy : MonoBehaviour
 
     private void Swarm()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime); //enemies moves towards the player
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -43,8 +46,9 @@ public class Enemy : MonoBehaviour
             if (collider.GetComponent<Health>() != null)
             {
                 collider.GetComponent<Health>().Damage(damage);
+                this.GetComponent<Health>().Damage(damage);
+                
             }
         }
     }
 }
-    
