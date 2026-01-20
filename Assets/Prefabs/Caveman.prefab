@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 479606929116910460}
   - component: {fileID: 5036390998113360385}
   - component: {fileID: 8152725545634279003}
-  - component: {fileID: 3573647389256967421}
+  - component: {fileID: 514073239189863757}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Caveman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,10 +176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4685f785a380e6444926755da6f785f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 5
   speed: 1.5
   data: {fileID: 11400000, guid: 84c85d9b0dc0aab4083df3b42580f9f7, type: 2}
---- !u!114 &3573647389256967421
+--- !u!114 &514073239189863757
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +188,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3171549698640750984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4353337c77d3b084cb0eb65520fe40e5, type: 3}
+  m_Script: {fileID: 11500000, guid: a00e8343ad274884ba9c46008ea77582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 25
+  maxHealth: 25

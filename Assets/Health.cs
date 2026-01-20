@@ -1,30 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
+using System.Collections;
 
-public class Health : MonoBehaviour
+public abstract class Health : MonoBehaviour
 {
-    [SerializeField] public int health = 100;
+    [SerializeField] protected int health = 100;
+    [SerializeField] protected int maxHealth = 100;
 
-
-    private int MAX_HEALTH = 100;
-
-    public static Action OnPlayerDeath;
-    public static Action OnEnemyDeath;
-    //private int enemiesKilled = 0;
-
-
-    public void SetHealth(int currentHealth, int maxHealth)
+    public virtual void Damage(int amount)
     {
-        MAX_HEALTH = maxHealth;
-        health = Mathf.Clamp(currentHealth, 0, MAX_HEALTH);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        health -= amount;
+        StartCoroutine(VisualIndicator(Color.red));
+        if (health <= 0) Die();
     }
 
     private IEnumerator VisualIndicator(Color color)
@@ -34,32 +20,17 @@ public class Health : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.white;
     }
 
-    public void Damage(int amount)
+    public int GetHealth()
     {
-        if (amount < 0)
-            throw new ArgumentOutOfRangeException("Cannot have negative Damage");
-
-        health -= amount;
-        StartCoroutine(VisualIndicator(Color.red));
-
-        if (health <= 0)
-
-            Die();
+        return health;
     }
-    private void Die()
+
+    public void SetHealth(int currentHealth, int maxHP)
     {
-        Destroy(gameObject);
-        if (this.CompareTag("Player"))
-        {
-            Time.timeScale = 0;
-
-        }
-        /*else if (this.CompareTag())
-        {
-            Debug.Log("I have killed an enemy");
-            enemiesKilled++;
-
-        }*/
+        maxHealth = maxHP;
+        health = Mathf.Clamp(currentHealth, 0, maxHealth);
     }
+
+    protected abstract void Die();
 
 }
