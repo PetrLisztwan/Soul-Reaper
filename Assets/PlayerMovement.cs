@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite[] movement;
+    private SpriteRenderer spriteRenderer;
+
     [SerializeField] private float speed = 3f;
 
     private Rigidbody2D body;
     private Vector2 axisMovement;
 
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         body = GetComponent<Rigidbody2D>(); 
     }
 
@@ -31,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     private void Move()
     {
         body.linearVelocity = axisMovement.normalized * speed;
+        spriteRenderer.sprite = movement[1];
     }
 
     private void CheckForFlipping()
@@ -41,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
         if (movingLeft)
         {
             transform.localScale = new Vector3(-1f, transform.localScale.y);
+
         }
 
         if (movingRight)
