@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 public class EnemyHealth : Health 
 {
@@ -8,6 +9,8 @@ public class EnemyHealth : Health
     {
         OnEnemyKilled?.Invoke(); // Notify other scripts an enemy died
         Debug.Log("Event Fired: Enemy has died!");
+
         Destroy(gameObject);
     }
+
 }

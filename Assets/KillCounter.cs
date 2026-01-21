@@ -21,7 +21,15 @@ public class Boss : MonoBehaviour
     void Addkills()
     {
         enemiesKilled++;
-        counterText.text = enemiesKilled.ToString() + "/" + spawner.EnemyMaxSpawnCount;
+        if (counterText != null && spawner != null)
+        {
+            counterText.text = enemiesKilled.ToString() + "/" + spawner.EnemyMaxSpawnCount;
+        }
+        else
+        {
+            Debug.Log("Please assign CounterText and Spawner in the Inspector!");
+        }
+        
     }
 
     void Update()

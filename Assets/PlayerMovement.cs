@@ -4,8 +4,6 @@ public class PlayerMovement : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite[] movement;
-    private SpriteRenderer spriteRenderer;
-
     [SerializeField] private float speed = 3f;
 
     private Rigidbody2D body;
@@ -35,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
     private void Move()
     {
         body.linearVelocity = axisMovement.normalized * speed;
-        spriteRenderer.sprite = movement[1];
     }
 
     private void CheckForFlipping()
