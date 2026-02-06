@@ -41,7 +41,7 @@ private IEnumerator spawnEnemy(float interval, GameObject enemy)
 
         if (currentEnemySpawnCount < EnemyMaxSpawnCount && !Boss.goalReached)
         {
-            GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
+            GameObject newEnemy = Instantiate(EnemyPrefab, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
             currentEnemySpawnCount++;
             StartCoroutine(spawnEnemy(interval, enemy));
         }

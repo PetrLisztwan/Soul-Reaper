@@ -3,14 +3,19 @@ using System.Collections;
 
 public abstract class Health : MonoBehaviour
 {
-    [SerializeField] protected int health = 100;
-    [SerializeField] protected int maxHealth = 100;
+    [SerializeField] protected int health; 
+    [SerializeField] protected int maxHealth;
 
     public virtual void Damage(int amount)
     {
         health -= amount;
         StartCoroutine(VisualIndicator(Color.red));
         if (health <= 0) Die();
+    }
+
+    public void Update()
+    {
+        Debug.Log(gameObject.name + " Health: " + health, gameObject);
     }
 
     private IEnumerator VisualIndicator(Color color)
@@ -33,4 +38,4 @@ public abstract class Health : MonoBehaviour
 
     protected abstract void Die();
 
-}
+}   

@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Swarm();
+        //Debug.Log("Enemy Damage:" + damage);
     }
 
     private void SetEnemyValues()
