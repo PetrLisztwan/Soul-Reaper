@@ -15,7 +15,7 @@ public abstract class Health : MonoBehaviour
 
     public void Update()
     {
-        Debug.Log(gameObject.name + " Health: " + health, gameObject);
+        //Debug.Log(gameObject.name + " Health: " + health, gameObject);
     }
 
     private IEnumerator VisualIndicator(Color color)

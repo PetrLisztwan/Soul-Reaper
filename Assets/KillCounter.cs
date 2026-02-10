@@ -32,6 +32,7 @@ public class Boss : MonoBehaviour
         
     }
 
+
     void Update()
     {
         if (enemiesKilled >= spawner.EnemyMaxSpawnCount)
