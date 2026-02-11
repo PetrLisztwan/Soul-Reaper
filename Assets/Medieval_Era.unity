@@ -152,6 +152,7 @@ MonoBehaviour:
   EnemyBossPrefab: {fileID: 1291001703490185468, guid: 71f2dcab045055f44be40d3568f556bc, type: 3}
   swarmerInterval: 3.5
   EnemyMaxSpawnCount: 15
+  currentBoss: {fileID: 0}
 --- !u!4 &61976529
 Transform:
   m_ObjectHideFlags: 0

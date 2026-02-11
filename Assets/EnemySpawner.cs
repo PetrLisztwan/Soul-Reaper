@@ -9,6 +9,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject EnemyBossPrefab;
     [SerializeField] private float swarmerInterval = 3.5f;
     [SerializeField] public int EnemyMaxSpawnCount;
+    public GameObject currentBoss;
 
     private int currentEnemySpawnCount = 0;
 
@@ -28,7 +29,7 @@ public class EnemySpawner : MonoBehaviour
         if (Boss.goalReached)
         {
             
-            GameObject newBoss = Instantiate(EnemyBossPrefab, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
+            currentBoss = Instantiate(EnemyBossPrefab, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6f), 0), Quaternion.identity);
             Boss.goalReached = false;
         }
     }

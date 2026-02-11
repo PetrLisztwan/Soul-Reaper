@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8863941916807719534}
   - component: {fileID: -8891882315162119158}
   - component: {fileID: -5237885337285675195}
+  - component: {fileID: 5105791631127143291}
   m_Layer: 0
   m_Name: KnightBoss
   m_TagString: Untagged
@@ -120,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
+  data: {fileID: 0}
 --- !u!50 &-8891882315162119158
 Rigidbody2D:
   serializedVersion: 5
@@ -193,3 +195,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5105791631127143291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291001703490185468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bd5d2362a68d247ac2f3185331df06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

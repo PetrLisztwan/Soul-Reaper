@@ -19,10 +19,6 @@ public class EnemyHealth : Health
         Debug.Log("Event Fired: Enemy has died!");
         
         Destroy(gameObject);
-
-        OnBossKilled.Invoke();
-        Debug.Log("The Boss has died!");
-
     }
 
 }
