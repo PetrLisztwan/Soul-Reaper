@@ -25,5 +25,10 @@ public class HeartsUIChanger : MonoBehaviour
             spriteRenderer.sprite = heartSprites[2];
         else
             spriteRenderer.sprite = heartSprites[3];
+
+        if (spriteRenderer = GetComponent<SpriteRenderer>())
+        {
+            Debug.Log(spriteRenderer);
+        }
     }
 }
