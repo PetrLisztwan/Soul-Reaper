@@ -39,6 +39,7 @@ public class Boss : MonoBehaviour
         {
             goalReached = true;
             enemiesKilled = 0;
+            counterText.text = "Boss Time!";
         }
     }
 }

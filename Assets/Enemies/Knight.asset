@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   hp: 35
-  damage: 10
+  damage: 8
   speed: 0.5

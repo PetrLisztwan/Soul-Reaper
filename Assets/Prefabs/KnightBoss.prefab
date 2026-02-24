@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: f296b9885d789cc47ac1c2aa2e3ab126, type: 2}
 --- !u!50 &-8891882315162119158
 Rigidbody2D:
   serializedVersion: 5

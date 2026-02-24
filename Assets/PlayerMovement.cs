@@ -42,13 +42,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (movingLeft)
         {
-            transform.localScale = new Vector3(-1f, transform.localScale.y);
+            transform.localScale = new Vector3(-1.5f, transform.localScale.y);
 
         }
 
         if (movingRight)
         {
-            transform.localScale = new Vector3(1f, transform.localScale.y);
+            transform.localScale = new Vector3(1.5f, transform.localScale.y);
         }
     }
 

@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8863941916807719534, guid: 71f2dcab045055f44be40d3568f556bc, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: cddfc0f5af939214289047d8aa5d4bfc, type: 2}
+    - target: {fileID: -1299928372639949200, guid: 71f2dcab045055f44be40d3568f556bc, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: cddfc0f5af939214289047d8aa5d4bfc, type: 2}
     - target: {fileID: 1291001703490185468, guid: 71f2dcab045055f44be40d3568f556bc, type: 3}
       propertyPath: m_Name
       value: Knight
@@ -184,3 +192,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
+  data: {fileID: 0}
