@@ -5,7 +5,7 @@ public class MainMenuUI : MonoBehaviour
 {
     public void StartGameButton()
     {
-        SceneManager.LoadScene("GameLoop");
+        SceneManager.LoadScene("Caveman_Era");
     }
 
     public void SettingsButton()

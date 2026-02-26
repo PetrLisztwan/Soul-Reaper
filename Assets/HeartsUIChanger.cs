@@ -26,9 +26,5 @@ public class HeartsUIChanger : MonoBehaviour
         else
             spriteRenderer.sprite = heartSprites[3];
 
-        if (spriteRenderer = GetComponent<SpriteRenderer>())
-        {
-            Debug.Log(spriteRenderer);
-        }
     }
 }

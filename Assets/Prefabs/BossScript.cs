@@ -8,5 +8,6 @@ public class BossScript : MonoBehaviour
     private void OnDestroy()
     {
         OnBossDead?.Invoke();
+        Debug.Log("Boss is dead");
     }
 }
