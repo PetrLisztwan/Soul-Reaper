@@ -3846,6 +3846,7 @@ MonoBehaviour:
   - {fileID: 2658921128496198703, guid: f1972b68c60eb9446833d54b379b861a, type: 3}
   - {fileID: -2559411411905505130, guid: 74baccbd2d8816a47a523feec1125f8a, type: 3}
   playerHealth: {fileID: 942585369}
+  heartImage: {fileID: 1110250084}
 --- !u!114 &1110250084
 MonoBehaviour:
   m_ObjectHideFlags: 0
