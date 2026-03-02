@@ -34,9 +34,8 @@ public class EnemySpawner : MonoBehaviour
             Boss.goalReached = false;
         }
     }
-        
 
-private IEnumerator spawnEnemy(float interval, GameObject enemy)
+    private IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
         
         yield return new WaitForSeconds(interval);

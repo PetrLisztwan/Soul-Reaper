@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    [SerializeField] private Sprite[] movement;
     [SerializeField] private float speed = 3f;
+    [SerializeField] private Animator animator;
 
     private Rigidbody2D body;
     private Vector2 axisMovement;
@@ -21,6 +21,18 @@ public class PlayerMovement : MonoBehaviour
     {
         axisMovement.x = Input.GetAxisRaw("Horizontal");
         axisMovement.y = Input.GetAxisRaw("Vertical");
+
+        if (axisMovement.x != 0) { 
+            animator.SetBool("isRunning", true);
+        }
+        else if (axisMovement.y != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
 
         CheckForFlipping();
     }
@@ -42,14 +54,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (movingLeft)
         {
-            transform.localScale = new Vector3(-1.5f, transform.localScale.y);
-
+            transform.localScale = new Vector3(1.5f, transform.localScale.y);
         }
 
         if (movingRight)
         {
-            transform.localScale = new Vector3(1.5f, transform.localScale.y);
+            transform.localScale = new Vector3(-1.5f, transform.localScale.y);
         }
+
     }
 
 }

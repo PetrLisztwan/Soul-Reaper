@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5347453388399888142}
   - component: {fileID: 7017114828885099857}
   - component: {fileID: -7090390910873629754}
+  - component: {fileID: 533630673950355891}
   m_Layer: 0
   m_Name: soulFragment
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,3 +125,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.035
+--- !u!114 &533630673950355891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708092417439526027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932529500f439104aab3f8ee0836902c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoulText: {fileID: 0}

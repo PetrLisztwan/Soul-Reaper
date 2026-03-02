@@ -11,7 +11,7 @@ public class Boss : MonoBehaviour
     void OnEnable()
     {
         EnemyHealth.OnEnemyKilled += Addkills;
-    }
+    } 
 
     void OnDisable()
     {
@@ -41,6 +41,8 @@ public class Boss : MonoBehaviour
             enemiesKilled = 0;
             counterText.text = "Boss Time!";
         }
+
+        
     }
 }
 
