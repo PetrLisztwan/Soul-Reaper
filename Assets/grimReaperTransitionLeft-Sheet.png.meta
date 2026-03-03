@@ -127,17 +127,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 0
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 9
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: f0b80c17fac6c4580800000000000000
       internalID: -8841572467651605745
@@ -149,17 +149,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 0
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 5c74227b3d8607bb0800000000000000
       internalID: -4940333532705568827
@@ -171,17 +171,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 83b3ce222c8601970800000000000000
       internalID: 8723587661235501880
@@ -193,17 +193,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 50
         y: 0
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 5b5ef6292125cd960800000000000000
       internalID: 7628062108578473397
@@ -215,17 +215,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_4
       rect:
         serializedVersion: 2
-        x: 65
+        x: 66
         y: 0
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fe9d694961d382240800000000000000
       internalID: 4767127372763159023
@@ -237,17 +237,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_5
       rect:
         serializedVersion: 2
-        x: 81
+        x: 82
         y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: e745ff5d2dd938d60800000000000000
       internalID: 7891324500942214270
@@ -259,17 +259,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_6
       rect:
         serializedVersion: 2
-        x: 97
+        x: 98
         y: 0
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 631e5e4f5fd011330800000000000000
       internalID: 3679737720565260598
@@ -281,17 +281,17 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_7
       rect:
         serializedVersion: 2
-        x: 113
+        x: 114
         y: 0
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 70c21a895dec628f0800000000000000
       internalID: -565537286404363257
@@ -303,20 +303,90 @@ TextureImporter:
       name: grimReaperTransitionLeft-Sheet_8
       rect:
         serializedVersion: 2
-        x: 129
+        x: 130
         y: 0
-        width: 62
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 4aeed631cbcc7e880800000000000000
       internalID: -8581665456779301212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionLeft-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -6, y: -1.5}
+        - {x: -6, y: 1.5}
+        - {x: 6, y: 1.5}
+        - {x: 6, y: -1.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe22022f7a386134b990042181086169
+      internalID: 944664443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionLeft-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ce57d8c352ae4d84bdea939cb26c3
+      internalID: -584262866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionLeft-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27384458f9e94bb418b23811fc343e6d
+      internalID: -1209519905
       vertices: []
       indices: 
       edges: []
@@ -325,7 +395,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17cc4c3c52ae33547b9262c5156aa96d
     internalID: 0
     vertices: []
     indices: 
@@ -337,6 +407,8 @@ TextureImporter:
     nameFileIdTable:
       grimReaperTransitionLeft-Sheet_0: -8841572467651605745
       grimReaperTransitionLeft-Sheet_1: -4940333532705568827
+      grimReaperTransitionLeft-Sheet_10: -584262866
+      grimReaperTransitionLeft-Sheet_11: -1209519905
       grimReaperTransitionLeft-Sheet_2: 8723587661235501880
       grimReaperTransitionLeft-Sheet_3: 7628062108578473397
       grimReaperTransitionLeft-Sheet_4: 4767127372763159023
@@ -344,6 +416,7 @@ TextureImporter:
       grimReaperTransitionLeft-Sheet_6: 3679737720565260598
       grimReaperTransitionLeft-Sheet_7: -565537286404363257
       grimReaperTransitionLeft-Sheet_8: -8581665456779301212
+      grimReaperTransitionLeft-Sheet_9: 944664443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

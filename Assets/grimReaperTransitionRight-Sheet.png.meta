@@ -127,12 +127,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 0
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 9
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 18
         y: 0
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 50
         y: 0
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_4
       rect:
         serializedVersion: 2
-        x: 65
+        x: 66
         y: 0
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_5
       rect:
         serializedVersion: 2
-        x: 81
+        x: 82
         y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_6
       rect:
         serializedVersion: 2
-        x: 97
+        x: 98
         y: 0
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_7
       rect:
         serializedVersion: 2
-        x: 113
+        x: 114
         y: 0
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: grimReaperTransitionRight-Sheet_8
       rect:
         serializedVersion: 2
-        x: 129
+        x: 130
         y: 0
-        width: 62
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 12
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,11 +321,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionRight-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0627b11a2c6a3f74db771688b670e59c
+      internalID: -284291408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionRight-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc31d60789d86640a00fee8eaa367db
+      internalID: 1056503830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grimReaperTransitionRight-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 12
+        height: 3
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b771854cdbcf4154cb27670928853ca8
+      internalID: 759658476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9d7630d75161caa4c995f632da47eb73
     internalID: 0
     vertices: []
     indices: 
@@ -337,6 +403,8 @@ TextureImporter:
     nameFileIdTable:
       grimReaperTransitionRight-Sheet_0: 2622709045769843153
       grimReaperTransitionRight-Sheet_1: 5682509847114050011
+      grimReaperTransitionRight-Sheet_10: 1056503830
+      grimReaperTransitionRight-Sheet_11: 759658476
       grimReaperTransitionRight-Sheet_2: -6118058737527541716
       grimReaperTransitionRight-Sheet_3: -63639037286315952
       grimReaperTransitionRight-Sheet_4: -6419888752534867892
@@ -344,6 +412,7 @@ TextureImporter:
       grimReaperTransitionRight-Sheet_6: 8590117157706804051
       grimReaperTransitionRight-Sheet_7: 1849289523668746911
       grimReaperTransitionRight-Sheet_8: 3913570151929568451
+      grimReaperTransitionRight-Sheet_9: -284291408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

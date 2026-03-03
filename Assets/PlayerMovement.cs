@@ -7,7 +7,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
 
     private Rigidbody2D body;
-    private Vector2 axisMovement;
+    public static Vector2 axisMovement;
+    bool movingLeft;
+    bool movingRight;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,8 +51,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckForFlipping()
     {
-        bool movingLeft = axisMovement.x < 0;
-        bool movingRight = axisMovement.x > 0;
+        movingLeft = axisMovement.x < 0;
+        movingRight = axisMovement.x > 0;
 
         if (movingLeft)
         {
