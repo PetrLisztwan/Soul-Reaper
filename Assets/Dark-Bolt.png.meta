@@ -244,8 +244,8 @@ TextureImporter:
         y: 5
         width: 25
         height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,7 +416,7 @@ TextureImporter:
       name: Dark-Bolt_31
       rect:
         serializedVersion: 2
-        x: 580
+        x: 581
         y: 7
         width: 35
         height: 61
