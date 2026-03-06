@@ -3316,6 +3316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86ac0d1a2b1df84897aee487f5fc91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!4 &556598834
 Transform:
   m_ObjectHideFlags: 0
@@ -4131,7 +4132,7 @@ GameObject:
   - component: {fileID: 1476260452}
   - component: {fileID: 1476260451}
   m_Layer: 0
-  m_Name: 'Transition '
+  m_Name: 'TransitionUp '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

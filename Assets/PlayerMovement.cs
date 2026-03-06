@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D body;
     public static Vector2 axisMovement;
-    bool movingLeft;
-    bool movingRight;
+    public bool movingLeft;
+    public bool movingRight;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

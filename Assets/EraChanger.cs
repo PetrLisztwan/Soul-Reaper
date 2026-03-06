@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class EraChanger : MonoBehaviour
 {
+    public string sceneName;
     private void OnEnable()
     {
         BossScript.OnBossDead += HandleBossDeath;
@@ -16,6 +17,6 @@ public class EraChanger : MonoBehaviour
     void HandleBossDeath()
     {
         Debug.Log("Boss is dead, changing eras");
-        SceneManager.LoadScene("Medieval_Era");
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -414,6 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86ac0d1a2b1df84897aee487f5fc91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: ModernEra
 --- !u!4 &268683036
 Transform:
   m_ObjectHideFlags: 0
@@ -534,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86ac0d1a2b1df84897aee487f5fc91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!4 &550116625
 Transform:
   m_ObjectHideFlags: 0
@@ -5901,7 +5903,7 @@ GameObject:
   - component: {fileID: 1888103002}
   - component: {fileID: 1888103001}
   m_Layer: 0
-  m_Name: 'Transition '
+  m_Name: 'TransitionUp '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
