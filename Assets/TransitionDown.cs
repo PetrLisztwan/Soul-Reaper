@@ -4,7 +4,6 @@ public class TransitionDown : MonoBehaviour
 {
     public static System.Action AnimationDisabled;
     [SerializeField] GameObject player;
-    private SpriteRenderer TransitionDownSprite;
     Animator Anim;
     private PlayerMovement movingLeft;
     private PlayerMovement movingRight;
@@ -19,19 +18,25 @@ public class TransitionDown : MonoBehaviour
         PlayerHealth.OnPlayerDeath -= transition;
     }
 
+
+
     private void transition()
     {
        player.SetActive(false);
+       Debug.Log("transition Active");
+       Anim.SetTrigger("movingLeft");
 
-       if (movingLeft == true)
+        /*if (movingLeft == true)
        {
-           Anim.Play("LeftTransition");
+           Anim.SetTrigger("movingLeft");
            SceneManager.LoadScene("Limbo");
+           Debug.Log("movingLeft");
        }
-       else
-       {
-           Anim.Play("RightTransition");
-           SceneManager.LoadScene("Limbo");
-       }
+        if (movingRight == true)
+        {
+            Anim.SetTrigger("movingRight");
+            SceneManager.LoadScene("Limbo");
+            Debug.Log("movingLeft");
+        }*/
     }
 }

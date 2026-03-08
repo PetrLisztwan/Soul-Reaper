@@ -8,7 +8,7 @@ public class EnemyHealth : Health
     public static System.Action OnBossKilled;
 
     [SerializeField] private EnemyData data;
-    private GameObject soulFragment;
+    //private GameObject soulFragment;
 
     private void Start()
     {
