@@ -6,7 +6,7 @@ public class SoulDrop : MonoBehaviour
     public GameObject soulFragment;
     public GameObject soul;
     [SerializeField] private TextMeshProUGUI SoulText;
-    private int soulsCollected = 0;
+    public static int soulsCollected = 0;
 
 
     void OnEnable()

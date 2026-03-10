@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   speed: 0
-  data: {fileID: 11400000, guid: 5474f8583fad97745a9b9dbad25cc1bf, type: 2}
+  data: {fileID: 11400000, guid: 84c85d9b0dc0aab4083df3b42580f9f7, type: 2}
 --- !u!114 &-2550093400322806091
 MonoBehaviour:
   m_ObjectHideFlags: 0
