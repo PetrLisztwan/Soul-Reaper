@@ -11,7 +11,7 @@ public class MagicAttack : MonoBehaviour
 
     public float cooldown;
     public bool abilityReady;
-    public int damage = 100;
+    private int damage = 15;
 
     Animator Anim;
 
@@ -20,6 +20,11 @@ public class MagicAttack : MonoBehaviour
         Anim = gameObject.GetComponent<Animator>();
         magicAttackSprite = GetComponent<SpriteRenderer>();
         attackCollider = GetComponent<Collider2D>();
+
+        if (MagicUpgrade.limboMagicApplied)
+        {
+            damage = 30;
+        }
     }
 
     private void Update()
@@ -34,6 +39,8 @@ public class MagicAttack : MonoBehaviour
         //Debug.Log("Y:" + mouseWorldPos.y);
 
         CastAbility(mouseWorldPos);
+
+        Debug.Log("Magic Damage" + damage);
     }
     public void ActivateHitbox()
     {

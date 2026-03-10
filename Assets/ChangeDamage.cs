@@ -13,22 +13,22 @@ public class ChangeDamage : MonoBehaviour
    {
     if (playerInRange && Input.GetKeyDown(KeyCode.E) && !limboDamageApplied)
     {
-        if (SoulDrop.soulsCollected >= 5)
+        if (RelicDrop.RelicsCollected >= 5)
             {
                 Debug.Log("E is being pressed");
                 limboDamageApplied = true;
                 DamageApplied.text = "Upgrade successfully bought!";
-                SoulDrop.soulsCollected -= 5;
+                RelicDrop.RelicsCollected -= 5;
             }
             else
             {
-                DamageApplied.text = "Unsuccessfull, not enough Souls!";
+                DamageApplied.text = "Unsuccessfull, not enough !";
                 limboDamageApplied = false;
             }
  
     }
 
-        Debug.Log("Number of Souls" + SoulDrop.soulsCollected);
+        Debug.Log("Number of Relics" + RelicDrop.RelicsCollected);
 
    }
 
